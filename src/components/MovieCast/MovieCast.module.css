@@ -1,0 +1,16 @@
+.listCast {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.itemCast {
+    max-width: 150px;
+}
+
+.imgCast {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}

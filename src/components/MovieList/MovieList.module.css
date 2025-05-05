@@ -1,0 +1,44 @@
+.list {
+    padding: 10px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.posterItem {
+    max-width: 200px;
+}
+
+.itemLink {
+    color: blue;
+
+    &:hover {
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        text-decoration-color: rgb(16, 187, 141);
+        text-decoration-thickness: 3px;
+    }
+}
+
+.posterImg {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.posterText {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .list {
+        padding: 5px;
+        gap: 6px;
+        justify-content: center;
+    }
+
+    .posterItem {
+        max-width: 155px;
+    }
+}
